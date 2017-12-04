@@ -1,5 +1,3 @@
-# 学习Scrapy
-
 ## 安装scrapy
 ### Ubuntu:
 - 安装非Python的依赖:
