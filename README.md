@@ -101,4 +101,4 @@ class BaiduSpider(scrapy.Spider):
  scrapy crawl [爬虫名称] //bdimage.py文件中的name属性值
  ```
 
-- 在安装完Scrapy后，修改settings.py文件中的`IMAGES_STORE`路径，就可直接运行`scrapy crawl bdimage`测试项目
+-` 注：`在安装完Scrapy后，修改settings.py文件中的`IMAGES_STORE`路径，即可直接运行`scrapy crawl bdimage`测试项目
