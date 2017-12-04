@@ -8,33 +8,32 @@
 ```
 sudo pip install scrapy
 ```
-
 ### Window
 
-- 以Python3.5为例
+>以Python3.5为例
 
-+ 升级pip
-```shell
-python -m pip install -U pip
-```
-+ 安装wheel,用于安装本地whl文件
-```shell
-pip install wheel
-```
-+ 安装Pillow用于操作图片
-```shell
-pip install Pillow
-```
-+ 下载Twisted 和  Scrapy对应Python版本的whl文件[下载链接](https://www.lfd.uci.edu/~gohlke/pythonlibs/),
+1. 升级pip
+    ```shell
+    python -m pip install -U pip
+    ```
+2. 安装wheel,用于安装本地whl文件
+    ```shell
+    pip install wheel
+    ```
+3. 安装Pillow用于操作图片
+    ```shell
+    pip install Pillow
+    ```
+4. 下载Twisted 和  Scrapy对应Python版本的whl文件[下载链接](https://www.lfd.uci.edu/~gohlke/pythonlibs/),
 
-+ 安装下载的Twisted和Scrapy文件，cd到下载路径
-```
-pip install [文件名称].whl
-```
-+ 查看Scrapy是否安装成功
-```
-scrapy -h
-```
+    - 安装下载的Twisted和Scrapy文件，cd到下载路径
+    ```
+    pip install [文件名称].whl
+    ```
+5.  查看Scrapy是否安装成功
+    ```
+    scrapy -h
+    ```
 
 ## 初始化项目
 ```shell
@@ -99,4 +98,4 @@ class BaiduSpider(scrapy.Spider):
  scrapy crawl [爬虫名称] //bdimage.py文件中的name属性值
  ```
 
--` 注：`在安装完Scrapy后，修改settings.py文件中的`IMAGES_STORE`路径，即可直接运行`scrapy crawl bdimage`测试项目
+>` 注：`在安装完Scrapy后，修改settings.py文件中的`IMAGES_STORE`路径，即可直接运行`scrapy crawl bdimage`测试项目
